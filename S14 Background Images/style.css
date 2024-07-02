@@ -1,0 +1,40 @@
+.cricketPlayer {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cricketPlayerIpl {
+    width: 400px;
+    height: 600px;
+    background-color: orange;
+    display: inline-block;
+    border: 2px  solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.cskDiv{
+    background-image: url(./images/csk.png);
+    background-size: contain;
+    background-color: yellow;
+    background-attachment: scroll;
+}
+
+.rcbDiv{
+    background-image: url(./images/RCB.png);
+    background-size: 200px 200px;
+    background-color: red;
+    /* background-clip: padding-box; */
+    background-attachment: fixed;
+}
+
+.miDiv{
+    background-image: url(./images/MI.png);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-position: 100px 300px; */
+    background-color: blue;
+    background-position: center center;
+    background-clip: padding-box;
+}
